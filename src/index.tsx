@@ -4,11 +4,11 @@ import './index.css'
 import * as serviceWorker from './serviceWorker'
 import { StoreProvider } from 'easy-peasy'
 import { store } from './store'
-import { Test } from './App'
+import App from './App'
 
 ReactDOM.render(
     <StoreProvider store={store}>
-        <Test />
+        <App />
     </StoreProvider>,
     document.getElementById('root')
 )
