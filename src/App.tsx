@@ -1,14 +1,13 @@
 import React, { Fragment } from 'react'
 import { State, useStore, Actions, useActions } from 'easy-peasy'
 import { ApplictionStore } from './store'
-import styled from 'styled-components'
-
-const Button = styled.a``
 
 const App = () => {
+    const [value, setValue] = React.useState('default')
+
     return (
         <Fragment>
-            <Button>Hello</Button>
+            <h1>asda</h1>
         </Fragment>
     )
 }
