@@ -1,9 +1,9 @@
 import React from 'react'
 import { Actions, useActions } from 'easy-peasy'
-import { ApplicationStore } from './store'
+import { ApplicationStore } from '../../../store'
 
-import Button from './components/Button'
-import Input from './components/Input'
+import Button from '../../../components/Button'
+import Input from '../../../components/Input'
 
 const TodoForm = () => {
     const addTodo = useActions(

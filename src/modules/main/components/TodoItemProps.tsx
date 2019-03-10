@@ -1,9 +1,9 @@
 import React, { Fragment, Suspense } from 'react'
 import { State, Actions, useStore, useActions } from 'easy-peasy'
-import { ApplicationStore } from './store'
-import Button from './components/Button'
-import SpaceAround from './components/SpaceAround'
-import TodoText from './components/TodoText'
+import { ApplicationStore } from '../../../store'
+import Button from '../../../components/Button'
+import SpaceAround from '../../../components/SpaceAround'
+import TodoText from '../../../components/TodoText'
 
 interface TodoItemProps {
     id: number

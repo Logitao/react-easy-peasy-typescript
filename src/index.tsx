@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 import * as serviceWorker from './serviceWorker'
 import { StoreProvider } from 'easy-peasy'
 import { store } from './store'
-import App from './App'
+import App from './modules/main/App'
 
 ReactDOM.render(
     <StoreProvider store={store}>

@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import { State, useStore } from 'easy-peasy'
-import { ApplicationStore } from './store'
+import { ApplicationStore } from '../../../store'
 import { TodoItem } from './TodoItemProps'
 const TodoList = () => {
     const todos = useStore(
